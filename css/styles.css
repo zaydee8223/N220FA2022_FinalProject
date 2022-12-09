@@ -1,0 +1,38 @@
+/* Zaydee Dominguez-Chang || N220 Final Project || Tic Tac Toe with HTML and JavaScript || Due 12/10/2022 */
+
+/* cell class styling */
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+/* changing the font of the entire wrapper div to look more game-like */
+#gameWrapper {
+    margin-top: 90px;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+
+/* styling the gridContainer to look like a grid and be centered on screen */
+#gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: 0 auto;
+}
+
+/* styling for button */
+button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+}

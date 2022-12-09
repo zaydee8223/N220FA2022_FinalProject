@@ -1,0 +1,42 @@
+<!-- Zaydee Dominguez-Chang || N220 Final Project || Tic Tac Toe with HTML and JavaScript || Due 12/10/2022 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>N220 Final: Tic Tac Toe</title>
+    <!-- linking an external stylesheet to make things more organized -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- wrapper for the entire game -->
+    <div id="gameWrapper">
+      <!-- title of the game -->
+      <h1>Tic Tac Toe</h1>
+      <p>
+        This is a game of Tic Tac Toe made with HTML5 and JavaScript. <br />
+        Click on a box to make your mark.
+      </p>
+      <!-- grid for the game, containing nine boxes for the game -->
+      <div id="gridContainer">
+        <!-- nine div tags that will make the boxes for the game -->
+        <div cellIndex="0" class="cell"></div>
+        <div cellIndex="1" class="cell"></div>
+        <div cellIndex="2" class="cell"></div>
+        <div cellIndex="3" class="cell"></div>
+        <div cellIndex="4" class="cell"></div>
+        <div cellIndex="5" class="cell"></div>
+        <div cellIndex="6" class="cell"></div>
+        <div cellIndex="7" class="cell"></div>
+        <div cellIndex="8" class="cell"></div>
+      </div>
+      <!-- header to display different status messages -->
+      <h2 id="statusText"></h2>
+      <!-- button to restart the game -->
+      <button id="restartBtn" onclick="restartGame()">Restart Game</button>
+    </div>
+    <!-- linking js to page -->
+    <script src="app/app.js"></script>
+  </body>
+</html>
